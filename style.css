@@ -1,11 +1,17 @@
 body {
     background-color: #ECF3FF;
     font-family: 'Inter', sans-serif;
+    min-height: 100vh;        /* full viewport height */
+    display: flex;            /* center children (the <section>) */
+    align-items: center;      /* vertical center */
+    justify-content: center;  /* horizontal center */
+    margin: 0;  
 }
 
 section {
     display: flex;
-    justify-content: center;
+    gap: 24px; /* space between the two cards */
+
 
 }
 
