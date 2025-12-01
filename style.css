@@ -1,9 +1,9 @@
-body{
+body {
     background-color: #ECF3FF;
     font-family: 'Inter', sans-serif;
 }
 
-section{
+section {
     display: flex;
     justify-content: center;
 
@@ -11,19 +11,60 @@ section{
 
 /* Results Side */
 
-.your-result{
+.your-result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-image: linear-gradient(to bottom, #6643FE, #322EEC);
     padding: 30px 50px;
     border-radius: 25px;
+    color: white;
 
+}
+
+.your-result .number {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #100e97;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    
+}
+
+.number h1 {
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+.number p {
+    color: rgba(255, 255, 255, 0.507);
+    font-size: 14px;
+}
+
+.your-result p {
+    color: rgba(255, 255, 255, 0.507);
+    text-align: center;
+    
+
+}
+
+.your-result h2 {
+    font-size: 25px;
+    margin-bottom: 0;
+}
+
+.your-result h3 {
+    margin-bottom: 25px;
 }
 
 
 /* Summary Side */
 
-.summary{
+.summary {
     background-color: #ffffff;
-    color:#303C58 ;
+    color: #303C58;
     padding: 30px 50px;
     border-radius: 25px;
 
@@ -32,29 +73,30 @@ section{
 
 
 
-.entries .percent{
+.entries .percent {
     padding-left: 50px;
     color: #303C58;
     margin-left: auto;
 
 }
 
-.entries svg{
+.entries svg {
     width: 20px;
     height: 20px;
-    flex: 0 0 20px; /* keeps icon from stretching inside the flex row */
+    flex: 0 0 20px;
+    /* keeps icon from stretching inside the flex row */
 }
 
-.entries span{
-    color:#000000 ;
+.entries span {
+    color: #000000;
     font-weight: bold;
 }
 
 
 
-.entry-1{
+.entry-1 {
     display: flex;
-    align-items: center; 
+    align-items: center;
     gap: 10px;
     color: red;
     background-color: rgba(124, 61, 61, 0.11);
@@ -65,9 +107,9 @@ section{
 
 
 
-.entry-2{
+.entry-2 {
     display: flex;
-    align-items: center; 
+    align-items: center;
     gap: 10px;
     color: orange;
     background-color: rgba(255, 166, 0, 0.11);
@@ -77,36 +119,36 @@ section{
 
 }
 
-.entry-3{
+.entry-3 {
     display: flex;
-    align-items: center; 
+    align-items: center;
     gap: 10px;
     color: rgb(10, 207, 148);
-    background-color:rgb(10, 207, 148, 0.11) ;
+    background-color: rgb(10, 207, 148, 0.11);
     border-radius: 15px;
     padding: 5px;
     margin-bottom: 10px;
 
 }
 
-.entry-4{
+.entry-4 {
     display: flex;
-    align-items: center; 
+    align-items: center;
     gap: 10px;
     color: #6643FE;
-    background-color:  #6543fe11 ;
+    background-color: #6543fe11;
     border-radius: 15px;
     padding: 5px;
-     margin-bottom: 10px;
+    margin-bottom: 10px;
 
 }
 
-button{
+button {
     display: block;
     margin: 20px auto 0;
     background-color: #303C58;
     border-radius: 25px;
     color: white;
     padding: 10px 100px;
-    
+
 }
