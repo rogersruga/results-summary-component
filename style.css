@@ -1,3 +1,112 @@
 body{
     background-color: #ECF3FF;
+    font-family: 'Inter', sans-serif;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+
+}
+
+/* Results Side */
+
+.your-result{
+    background-image: linear-gradient(to bottom, #6643FE, #322EEC);
+    padding: 30px 50px;
+    border-radius: 25px;
+
+}
+
+
+/* Summary Side */
+
+.summary{
+    background-color: #ffffff;
+    color:#303C58 ;
+    padding: 30px 50px;
+    border-radius: 25px;
+
+
+}
+
+
+
+.entries .percent{
+    padding-left: 50px;
+    color: #303C58;
+    margin-left: auto;
+
+}
+
+.entries svg{
+    width: 20px;
+    height: 20px;
+    flex: 0 0 20px; /* keeps icon from stretching inside the flex row */
+}
+
+.entries span{
+    color:#000000 ;
+    font-weight: bold;
+}
+
+
+
+.entry-1{
+    display: flex;
+    align-items: center; 
+    gap: 10px;
+    color: red;
+    background-color: rgba(124, 61, 61, 0.11);
+    border-radius: 15px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+
+
+.entry-2{
+    display: flex;
+    align-items: center; 
+    gap: 10px;
+    color: orange;
+    background-color: rgba(255, 166, 0, 0.11);
+    border-radius: 15px;
+    padding: 5px;
+    margin-bottom: 10px;
+
+}
+
+.entry-3{
+    display: flex;
+    align-items: center; 
+    gap: 10px;
+    color: rgb(10, 207, 148);
+    background-color:rgb(10, 207, 148, 0.11) ;
+    border-radius: 15px;
+    padding: 5px;
+    margin-bottom: 10px;
+
+}
+
+.entry-4{
+    display: flex;
+    align-items: center; 
+    gap: 10px;
+    color: #6643FE;
+    background-color:  #6543fe11 ;
+    border-radius: 15px;
+    padding: 5px;
+     margin-bottom: 10px;
+
+}
+
+button{
+    display: block;
+    margin: 20px auto 0;
+    background-color: #303C58;
+    border-radius: 25px;
+    color: white;
+    padding: 10px 100px;
+    
 }
